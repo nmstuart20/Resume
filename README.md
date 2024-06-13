@@ -1,6 +1,8 @@
 # Resume
 My current resume written in LaTeX.
 
+If you want to use this as a starting point for your own resume:
+
 #### 1. Clone the Repo (from the command line)
 ```sh
 git clone https://github.com/nmstuart20/Resume.git
