@@ -32,7 +32,7 @@ jobs:
           for file in "${array[@]}"; do
             echo "$file was changed"
             echo "Generating PDF from Tex"
-            ./latexdocker.sh latexmk -outdir=./_build -pdf "$file"
+            --chmod=+x ./latexdocker.sh latexmk -outdir=./_build -pdf "$file"
           done
           mv ./_build/*pdf ./resumes/
           rm -rf ./_build
