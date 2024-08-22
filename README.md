@@ -1,5 +1,5 @@
 # Resume
-My current resume written in LaTeX.
+Resume written in LaTeX.
 
 If you want to use this as a starting point for your own resume:
 
