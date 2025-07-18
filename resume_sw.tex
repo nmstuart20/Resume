@@ -133,54 +133,47 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Software Engineer Sr}{Jun. 2022 -- Present}
-      {Lockheed Martin}{Fort Worth, TX}
-      \resumeItemListStart
-        \resumeItem{Worked as a member of the Lockheed Martin Aeronautics Sensor Fusion software development team. }
-        \resumeItem{Performed Information Fusion with data and sensors such as radar, passive sensors, tactical data links, and more.}
-        \resumeItem{Developed RF signals processing capabilities and supporting tools in Rust.}
-        \resumeItem{Developed custom Fusion Tracker for RF capabilities in Rust.}
-	      \resumeItem{Developed suite of software in Rust for RF and Fusion analysis.}
-        \resumeItem{Developed and maintained tooling to analyze software test results (flight, lab, etc.) in C\# and MATLAB.}
-        \resumeItem{Developed a simulation environment in MATLAB for rapid signals processing algorithm development.}
-        \resumeItem{Reduced significant technical debt of F35 Sensor Fusion code by identifying, resolving and verifying many years worth of documented issues.}
-        \resumeItem{Performed all aspects of software development including design, development, test, integration, and maintenance of real-time embedded fusion software in C++}
-      \resumeItemListEnd
+  \resumeSubheading
+  {Software Engineer - RF Signal Processing Team}{2022 - Present}
+  {Lockheed Martin}{Fort Worth}
+  \resumeItemListStart
+      \resumeItem{Architected and developed complete RF signal processing pipeline from I/Q data ingestion to target tracking solutions}
+      \resumeItem{Implemented advanced tracking algorithms including immediate decision single hypothesis data association, Kalman filters, and particle filters for target solution generation}
+      \resumeItem{Built comprehensive analysis tooling in Rust for pipeline performance evaluation, displaying critical metrics such as track location accuracy and error analysis}
+      \resumeItem{Developed sophisticated MATLAB simulation modeling aircraft kinematics and signal generation for system validation and testing}
+      \resumeItem{Collaborated with cross-functional teams to integrate RF processing capabilities into existing sensor fusion architecture}
+  \resumeItemListEnd
+
+\resumeSubheading
+  {Software Engineer - Sensor Fusion Team}{2022 - 2024}
+  {Lockheed Martin}{Fort Worth}
+  \resumeItemListStart
+      \resumeItem{Maintained and enhanced sensor fusion capabilities for F-35 Lightning II aircraft systems}
+      \resumeItem{Specialized in data association algorithms for multi-sensor integration and target correlation}
+      \resumeItem{Developed new sensor fusion capabilities to improve target detection and tracking accuracy}
+      \resumeItem{Optimized real-time processing performance for mission-critical defense applications}
+      \resumeItem{Collaborated with test teams to validate sensor fusion performance against operational requirements}
+  \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
 
     \resumeSubheading
-      {Engineering Specialist}{Jun. 2020 -- Jun. 2022}
-      {Bell Flight}{Fort Worth, TX}
-      \resumeItemListStart
-        \resumeItem{Developed software in Java to automate several manual tasks involved in the creation of wire diagrams, harnesses, and other wire data. This significantly reduced the normal wire harness development time for a new program the size of FARA}
-        \resumeItem{Worked as a member of the electrical wiring team on the Bell Future Vertical Lift program.}
-        \resumeItem{Designed and released electrical wiring harnesses to support the installation of all systems on the aircraft. }
-        \resumeItem{Created, released, and maintained electrical wire diagrams to support installation and troubleshooting. }
-        \resumeItem{Assisted in the creation of Avionics systems designs and schematics.}
-      \resumeItemListEnd
-
-      \resumeSubheading
-      {Electronics Engineer}{Aug. 2018 -- Jun. 2020}
-      {Lockheed Martin}{Fort Worth, TX}
-      \resumeItemListStart
-        \resumeItem{Responsible for the release and build of wire diagrams and harness assemblies as well as the training and guidance of new engineers to the team.}
-        \resumeItem{Worked as a member of the electrical wiring design team in the early stages of an ADP program.}
-        \resumeItem{Created the Harness Interface Device Document (HIDD), coordinated with various subsystem teams, the avionics team, and the installation team to derive and implement electrical requirements}
-        \resumeItem{Compile wire diagrams and harness BTPs for installation using Mentor Graphics Capital software.}
-        \resumeItem{Developed CONOPs for harness development workflow and wire diagram release process.}
-      \resumeItemListEnd
-
-      \resumeSubheading
-      {Electronics Engineer Asc}{Jan. 2016 -- Aug. 2018}
-      {Lockheed Martin}{Fort Worth, TX}
-      \resumeItemListStart
-        \resumeItem{IPT technical management for the Communications, Navigation, and Identification team. }
-        \resumeItem{Responsibilities included subcontractor hardware design support, supplier ECP planning and execution, engineering change requests to implement qualification and other failure fixes, technical evaluations of supplier proposals, and writing and reviewing supplier statements of work.}
-        \resumeItem{Integrator for use of Commercial Off the Shelf products on the TACMAN modernization program.}
-        \resumeItem{Found root cause of micro DTC issues and managed the project to implement and release corrective action.}
-      \resumeItemListEnd
+        {Electronics Engineer}{2020 - 2022}
+        {Bell Flight}{Fort Worth}
+        \resumeItemListStart
+            \resumeItem{Designed and developed wire harnesses for advanced rotorcraft programs}
+            \resumeItem{Led wire harness design and manufacturing for FARA (Future Attack Reconnaissance Aircraft) helicopter competition}
+            \resumeItem{Developed comprehensive Java software suite that automated wire harness design processes, integrating with existing CAD tools for design verification, route optimization, and intelligent part number selection}
+        \resumeItemListEnd
+    \resumeSubheading
+        {Electronics Engineer}{2016 - 2020}
+        {Lockheed Martin}{Fort Worth}
+        \resumeItemListStart
+            \resumeItem{Designed and developed electrical systems and wire harnesses for advanced new development programs}
+            \resumeItem{Contributed to multiple Skunk Works advanced development programs, delivering innovative electrical solutions}
+            \resumeItem{Managed full product lifecycle from initial design through testing and integration}
+            \resumeItem{Collaborated with mechanical and software engineering teams to ensure seamless system integration}
+        \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
@@ -198,18 +191,46 @@
 %             \resumeItem{Used Celery and Redis for asynchronous tasks}
 %           \resumeItemListEnd
 %     \resumeSubHeadingListEnd
+% Notable Projects
+\section{Notable Projects}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{Multi-Aircraft Kinematic and Signals Processing Simulation (MATLAB)}
+    \begin{itemize}[leftmargin=0.15in]
+        \resumeItem{Developed comprehensive simulation environment modeling multiple aircraft dynamics}
+        \resumeItem{Generated realistic signal patterns for RF processing pipeline validation}
+        \resumeItem{Enabled systematic testing of signals processing and tracking algorithms under various operational scenarios}
+    \end{itemize}
+    
+    \item \textbf{Rust-Based Analysis Tooling}
+    \begin{itemize}[leftmargin=0.15in]
+        \resumeItem{Created performance monitoring and visualization tools for RF processing pipeline}
+        \resumeItem{Implemented real-time display of tracking metrics and system health indicators}
+        \resumeItem{Improved debugging efficiency and system performance optimization}
+    \end{itemize}
 
+    \item \textbf{Wire Harness Design Automation Suite (Java)}
+    \begin{itemize}[leftmargin=0.15in]
+        \resumeItem{Engineered comprehensive software suite integrating with CAD tools to automate manual wire harness design processes}
+        \resumeItem{Developed intelligent algorithms for route optimization and automated part number selection based on harness specifications}
+        \resumeItem{Implemented cross-platform design verification system reducing manual errors and improving design consistency}
+    \end{itemize}
+\end{itemize}
 
 
 %-----------PROGRAMMING SKILLS-----------
 % Can replace this section with another skills and tools type section: like SAP, PDM, etc.
+% Technical Skills
 \section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
+\begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Rust, MATLAB, C++, Java} \\
-     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Gitlab CI/CD} \\
+        \textbf{Programming Languages:} Rust, MATLAB, C/C++, Python, Java \\
+        \textbf{Signal Processing:} RF signal detection \& decoding, Digital signal processing \\
+        \textbf{Fusion Algorithms:} Kalman filters, Particle filters, Data association algorithms\\
+        \textbf{Systems:} Sensor fusion architectures, Real-time processing pipelines, Embedded systems \\
+        \textbf{Tools \& Technologies:} Docker, Kubernetes, gRPC, AFSIM\\
+        \textbf{Hardware:} Electrical system design, Wire harness design \& manufacturing, Avionics systems
     }}
- \end{itemize}
+\end{itemize}
 
 
 %-------------------------------------------
